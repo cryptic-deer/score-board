@@ -1,0 +1,76 @@
+@font-face{
+    font-family: "ScoreBoardFont";
+    src: url("/font/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'ScoreBoardFont', sans-serif;
+    height: 100vh;
+    align-items: center;
+    gap: 10%;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    margin: 0;
+}
+
+.score-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    max-width: 120px;
+}
+
+.score{
+    font-size: 90px;
+    line-height: 90px;
+    background-color: #080001;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px 4px 20px;
+    color: #F94F6D;
+    border-radius: 5px;
+}
+.button-wrapper{
+    padding-top: 5px;
+    display: flex;
+    gap: 9px;
+}
+.scoreButton, #resetButton{
+    color: #FDE68A;
+    background-color: transparent;
+    border: 2px solid #FDE68A;
+    padding: 14px 10px 10px;
+    border-radius: 5px;
+    font-family: 'ScoreBoardFont', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.scoreButton:hover{
+    color: #34D399;
+    border-color: #34D399;
+}
+
+#resetButton:hover{
+    color: #BE123C;
+    border-color: #BE123C;
+}
